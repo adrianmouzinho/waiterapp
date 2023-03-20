@@ -45,6 +45,61 @@ Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figm
 
 <br>
 
+## ⚙️ Instalação
+
+```
+# Abra um terminal e copie este repositório com o comando
+$ git clone https://github.com/AdrianMouzinho/waiterapp.git
+
+# Acesse a pasta da aplicação
+$ cd waiterapp
+```
+
+```
+# Acesse a pasta do backend
+$ cd api
+
+# Instale as dependências
+$ npm install
+
+# Renomei o arquivo .env.example para .env e coloque a sua url de conexão do mongodb
+
+# Faça o build
+$ npm run build
+
+# Inicie a aplicação
+$ npm run start
+
+```
+
+```
+# Abra outro terminal e acesse a pasta do frontend
+$ cd web
+
+# Instale as dependências
+$ npm install
+
+# Inicie a aplicação
+$ npm run dev
+
+```
+
+```
+# Abra outro terminal e acesse a pasta do app mobile
+$ cd mobile
+
+# Instale as dependências
+$ npm install
+
+# Inicie a aplicação
+$ expo start
+
+```
+
+<br>
+
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT.
+
+<p>Feito com 💙 por Adrian Mouzinho</p>

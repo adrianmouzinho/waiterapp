@@ -3,14 +3,17 @@ import http from 'node:http';
 import express from 'express';
 import mongoose from 'mongoose';
 import{ Server } from 'socket.io';
+import 'dotenv/config';
 
 import { router } from './router';
+
+const url = String(process.env.URL_MONGODB);
 
 const app = express();
 const server = http.createServer(app);
 export const io = new Server(server);
 
-mongoose.connect('mongodb+srv://adrianmouzinho:cx12nvHe59XGSWZb@waiterapp.58hmeu7.mongodb.net/test')
+mongoose.connect(url)
   .then(() => {
     const port = 3000;
 
