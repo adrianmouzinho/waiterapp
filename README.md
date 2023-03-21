@@ -19,8 +19,6 @@ WaiterApp é uma aplicação fullstack (frontend, backend e mobile) desenvolvido
   <img src=".github/preview.png" width="100%">
 </p>
 
-<br>
-
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -37,13 +35,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Multer
 - Figma
 
-<br>
-
 ## 🔖 Layout
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/WToLAikx89TL2AG1QrVos5/WAITERAPP?t=sBRCrZfPTU6nBnpF-6). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
-
-<br>
 
 ## ⚙️ Instalação
 
@@ -57,7 +51,7 @@ $ cd waiterapp
 
 ```
 # Acesse a pasta do backend
-$ cd api
+$ cd server
 
 # Instale as dependências
 $ npm install
@@ -70,6 +64,8 @@ $ npm run build
 # Inicie a aplicação
 $ npm run start
 
+# Utilize o insomnia ou outro programa para cadastrar as categorias e os produtos, respectivamente
+
 ```
 
 ```
@@ -78,6 +74,8 @@ $ cd web
 
 # Instale as dependências
 $ npm install
+
+# Abra o arquivo api.ts que está em src/utils/api.ts e troque o ip 192.168.48.147 para o ip da sua rede
 
 # Inicie a aplicação
 $ npm run dev
@@ -91,12 +89,12 @@ $ cd mobile
 # Instale as dependências
 $ npm install
 
+# Abra o arquivo api.ts que está em src/utils/api.ts e troque o ip 192.168.48.147 para o ip da sua rede
+
 # Inicie a aplicação
-$ expo start
+$ npm run start
 
 ```
-
-<br>
 
 ## :memo: Licença
 
