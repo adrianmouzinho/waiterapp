@@ -35,10 +35,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Multer
 - Figma
 
-## 🔖 Layout
-
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/WToLAikx89TL2AG1QrVos5/WAITERAPP?t=sBRCrZfPTU6nBnpF-6). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
-
 ## ⚙️ Instalação
 
 ```
